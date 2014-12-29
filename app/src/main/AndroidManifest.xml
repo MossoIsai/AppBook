@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mossin.com.appbook.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.mossin.com.appbook.app.Principal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.mossin.com.appbook.app.Bienvenido"
+            android:label="@string/title_activity_bienvenido"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.mossin.com.appbook.app.Consulta"
+            android:label="@string/title_activity_consulta" >
+        </activity>
+        <activity
+            android:name="org.mossin.com.appbook.app.Perfil"
+            android:label="@string/title_activity_perfil"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.mossin.com.appbook.app.AltaUsuario"
+            android:label="@string/title_activity_alta_usuario"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.mossin.com.appbook.app.ConsultaIndividual"
+            android:label="@string/title_activity_consulta_individual" >
+        </activity>
+        <activity
+            android:name="org.mossin.com.appbook.app.Elimina"
+            android:label="@string/title_activity_elimina" >
+        </activity>
+    </application>
+
+</manifest>

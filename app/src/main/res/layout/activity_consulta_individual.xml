@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.mossin.com.appbook.app.ConsultaIndividual">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#16a085"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/cItextView"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#16a085"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/cItextView2"
+        android:layout_below="@+id/cItextView"
+        android:layout_alignLeft="@+id/cItextView"
+        android:layout_alignStart="@+id/cItextView"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="#16a085"
+        android:id="@+id/cItextView3"
+        android:layout_below="@+id/cItextView2"
+        android:layout_alignLeft="@+id/cItextView2"
+        android:layout_alignStart="@+id/cItextView2"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#16a085"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/cItextView4"
+        android:layout_below="@+id/cItextView3"
+        android:layout_alignLeft="@+id/cItextView3"
+        android:layout_alignStart="@+id/cItextView3"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#16a085"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/cItextView5"
+        android:layout_below="@+id/cItextView4"
+        android:layout_alignLeft="@+id/cItextView4"
+        android:layout_alignStart="@+id/cItextView4"
+        android:layout_marginTop="50dp" />
+
+  </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registra tu Libro"
+            android:textColor="#16a085"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+
+        <EditText
+            android:textColorHint="#33bf9b"
+            android:hint="Nombre del libro"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+        <EditText
+
+            android:textColorHint="#33bf9b"
+            android:hint="Autor"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+        <EditText
+            android:textColorHint="#33bf9b"
+            android:hint="Editorial"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:layout_below="@+id/editText4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+        <EditText
+            android:textColorHint="#33bf9b"
+            android:hint="Descripcion"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:layout_below="@+id/editText5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+        <EditText
+            android:textColorHint="#33bf9b"
+            android:hint="Precio Compra"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/editText6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:background="@drawable/botones"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/ic_action_save"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:id="@+id/button3"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/editText7"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:background="#ECEFF1"
+        android:textColor="#ECEFF1"
+        />
+
+</android.support.v4.widget.DrawerLayout>

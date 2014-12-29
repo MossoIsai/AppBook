@@ -1,0 +1,75 @@
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="162dp"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#33bf9b"
+            android:hint="Login"
+             />
+
+        <EditText
+
+            android:hint="Password"
+            android:layout_alignParentLeft="true"
+
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColorHint="#33bf9b"
+            android:id="@+id/editText2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:background="@drawable/botones"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/ic_action_accounts"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Entrar"
+            android:id="@+id/button"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:background="@drawable/botones"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/ic_action_undo"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Salir"
+            android:id="@+id/button2"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/starlogo"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
